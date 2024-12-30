@@ -1,0 +1,15 @@
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.deps.json
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.runtimeconfig.json
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.dll
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/bin/Debug/net9.0/TestProject.pdb
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.AssemblyInfoInputs.cache
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.AssemblyInfo.cs
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.sourcelink.json
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.dll
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/refint/TestProject.dll
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.pdb
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/TestProject.genruntimeconfig.cache
+/Users/jonanleu/repos/cSharpPlayground/CsharpProjects/TestProject/obj/Debug/net9.0/ref/TestProject.dll
