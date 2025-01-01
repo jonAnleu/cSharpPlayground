@@ -1,7 +1,27 @@
-﻿string[] orders = ["B123", "C234", "A345","C15", "B177","G3003","C235", "B179"];
+﻿Random random = new Random();
 
-foreach (var order in orders) {
-  if (order.StartsWith("B")) {
-    Console.WriteLine(order);
+int hero = 10;
+int monster = 10;
+
+while (hero > 0 && monster > 0){
+
+  
+  int heroAttack = random.Next(1,11);
+  int monsterAttack = random.Next(1,11);
+
+    monster -= heroAttack;
+    Console.WriteLine($"Monster was damaged and lost {heroAttack} health and now has {monster} health");
+
+     if (monster <= 0){
+    Console.WriteLine("Hero wins");
   }
+
+    hero -= monsterAttack;
+    Console.WriteLine($"Hero was damaged and lost {monsterAttack} health and now has {hero} health");  
+
+  if (hero <= 0) {
+    Console.WriteLine("Monster wins");
+  }
+
 }
+    
