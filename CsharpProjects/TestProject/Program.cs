@@ -1,27 +1,22 @@
-﻿Random random = new Random();
+﻿string? readResult;
+bool validEntry = false;
+Console.Write("Enter your role name (Administrator, Manager, or User): ");
+do
+{
+    readResult = Console.ReadLine().ToLower().Trim();
+    if (readResult != null)
+    {
+        if (readResult == "administrator" || readResult == "manager" || readResult == "user")
+        {
+           validEntry = true;
+           Console.WriteLine($"Your input value \"{readResult}\" has been accepted.");
+        }
+        else
+        {
+            Console.WriteLine($"The role name that you entered, \"{readResult}\" is not valid. Enter your role");
+        }
+    }
+} while (validEntry == false);
 
-int hero = 10;
-int monster = 10;
 
-while (hero > 0 && monster > 0){
 
-  
-  int heroAttack = random.Next(1,11);
-  int monsterAttack = random.Next(1,11);
-
-    monster -= heroAttack;
-    Console.WriteLine($"Monster was damaged and lost {heroAttack} health and now has {monster} health");
-
-     if (monster <= 0){
-    Console.WriteLine("Hero wins");
-  }
-
-    hero -= monsterAttack;
-    Console.WriteLine($"Hero was damaged and lost {monsterAttack} health and now has {hero} health");  
-
-  if (hero <= 0) {
-    Console.WriteLine("Monster wins");
-  }
-
-}
-    
